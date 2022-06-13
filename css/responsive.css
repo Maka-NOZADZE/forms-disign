@@ -1,0 +1,46 @@
+@media (max-width: 1140px) {
+  .container {
+    margin: 0 20px 0 20px;
+  }
+  #message {
+    width: 500px;
+    margin-right: 15px;
+  }
+  .inputs {
+    width: 380px;
+  }
+  .card1 {
+    width: 160px;
+  }
+}
+@media (max-width: 1058px){
+.photos{
+ max-width: 900px;
+ width: 100%;
+}
+.img{
+  width: 300px;
+}
+@media (max-width: 880px) {
+  #message {
+    width: 700px;
+  }
+  .inputs {
+    width: 700px;
+  }
+  .icons_cards {
+    width: 450px;
+  }
+  .card1 {
+    width: 150px;
+    margin-bottom: 10px;
+  }
+  .section_title {
+    align-items: center;
+  }
+}
+@media(max-width:500px){
+  .footer_list:nth-child(2){
+margin-bottom: 40px;
+  }
+}
