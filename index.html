@@ -2,8 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="description" content="Forms disign ">
+  <meta name="keywords" content="HTML, CSS, JavaScript, forms, responsive, input, textarea">
+  <meta name="author" content="John Doe">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:url"        content="https://maka-nozadze.github.io/forms-disign/" />
+<meta property="og:type"       content="article" />
+<meta property="og:title"      content="forms disign" />
+<meta property="og:description"content="forms html css" />
+<meta property="og:image"      content="https://thumbs.dreamstime.com/b/fond-de-coeur-d-amour-d-arc-en-ciel-60045149.jpg" />
     <script
       src="https://kit.fontawesome.com/e8e5ab4404.js"
       crossorigin="anonymous"
@@ -13,7 +21,7 @@
     <link rel="stylesheet" href="css/style.min.css" />
     <link rel="stylesheet" href="css/responsive.css" />
     <title>Document</title>
-  </head>
+  </head> 
   <body>
     <section class="section1">
       <div class="container">
@@ -21,20 +29,22 @@
           <h3>Contact</h3>
           <h2>Contact us to get free support</h2>
         </div>
-        <div class="form">
-          <div class="textzone">
-            <textarea name="" id="message" cols="30" rows="10">
+        <form action="">
+          <div class="form">
+            <div class="textzone">
+              <textarea name="" id="message" cols="30" rows="10">
 Ecrire massage</textarea
-            >
+              >
+            </div>
+            <div class="inputs">
+              <!-- <label for="subject">Subject</label> -->
+              <input type="text" name="" id="inp" placeholder="Subject" />
+              <input type="text" name="" id="inp" placeholder="Name" />
+              <input type="email" name="" id="inp" placeholder="Email" />
+              <button class="btn" type="submit">Send</button>
+            </div>
           </div>
-          <div class="inputs">
-            <!-- <label for="subject">Subject</label> -->
-            <input type="text" name="" id="inp" placeholder="Subject" />
-            <input type="text" name="" id="inp" placeholder="Name" />
-            <input type="email" name="" id="inp" placeholder="Email" />
-            <button class="btn" type="submit">Send</button>
-          </div>
-        </div>
+         
       </div>
     </section>
 
